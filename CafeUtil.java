@@ -29,7 +29,8 @@ public class CafeUtil {
     System.out.println("Please enter your name:");
     String userName = System.console().readLine();
     System.out.printf("Hello, %s here!\n", userName);
-    System.out.printf("There are %d people in front of you.", customers.size());
+    System.out.printf("There are %d people in front of you.\n", customers.size());
     customers.add(userName);
+    System.out.printf("Current Wait List: %s", customers);
   }
 }
